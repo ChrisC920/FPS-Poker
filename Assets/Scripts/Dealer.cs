@@ -27,7 +27,6 @@ public class Dealer : MonoBehaviour
             sharedCards.Add(GameObject.Find($"Card Spawns/Card Spawn {i + 1}"));
         }
         numCards = GameObject.FindGameObjectsWithTag("Card").Length;
-        
     }
 
     void Update()
